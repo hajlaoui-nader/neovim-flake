@@ -6,7 +6,7 @@ let
   neo = pkgs.neovimBuilder { config = cfg.settings; };
 in
 with lib; {
-  meta.maintainers = [ maintainers.gvolpe ];
+  meta.maintainers = [ maintainers.nhajlaoui ];
 
   options.programs.neovim-ide = {
     enable = mkEnableOption "NeoVim with LSP enabled for Scala, Haskell, Rust and more.";

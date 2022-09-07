@@ -2,13 +2,12 @@
 
 Nix flake for neovim with configuration options
 
-Originally based on Jordan Isaacs' amazing [neovim-flake](https://github.com/jordanisaacs/neovim-flake)
+Originally based on gvolpe's amazing [neovim-flake](https://github.com/gvolpe/neovim-flake)
 
 ## Try it out
 
 ```console
-$ cachix use gvolpe-nixos # Optional: this will save you CPU resources
-$ nix run github:gvolpe/neovim-flake#
+$ nix run github:hajlaoui-nader/neovim-flake#
 ```
 
 By default, Scala, Dhall, Elm, Nix, Haskell, and SQL lsp servers are enabled.
@@ -24,7 +23,7 @@ First of all, we add the input flake.
 ```nix
 {
   neovim-flake = {
-    url = github:gvolpe/neovim-flake;
+    url = github:hajlaoui-nader/neovim-flake;
     inputs.nixpkgs.follows = "nixpkgs";
   };
 }
@@ -74,8 +73,6 @@ For the Scala module, the `metals` binary can be easily overridden with the prov
 ```
 
 We can also choose to use the minimal configuration via `nvim-lspconfig` or use the more featureful [nvim-metals](https://github.com/scalameta/nvim-metals) (default and recommended).
-
-Have a look at my [nix-config](https://github.com/gvolpe/nix-config) for a full example.
 
 ## Options
 
