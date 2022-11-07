@@ -248,10 +248,10 @@
     };
 
     # github copilot
-    github-copilot = {
-      url = github/copilot.vim;
-      flake = false;
-    };
+    # github-copilot = {
+    #   url = github/copilot.vim;
+    #   flake = false;
+    # };
   };
 
   outputs = inputs @ { self, nixpkgs, flake-utils, ... }:
@@ -306,7 +306,6 @@
         "nvim-ufo"
         "promise-async"
         "mind-nvim"
-        "github-copilot"
       ];
 
       lib = import ./lib { inherit pkgs inputs plugins; };
