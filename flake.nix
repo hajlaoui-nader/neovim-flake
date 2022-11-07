@@ -243,7 +243,7 @@
 
     # Scala 3 highlights (treesitter doesn't yet support it)
     vim-scala = {
-      url = github:gvolpe/vim-scala;
+      url = github:gvolpse/vim-scala;
       flake = false;
     };
 
