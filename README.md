@@ -243,12 +243,12 @@ A list of all plugins that can be enabled
 
 - [nvim-compe](https://github.com/hrsh7th/nvim-compe) A deprecated autocomplete plugin
 - [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) a completion engine that utilizes sources (replaces nvim-compe)
-    - [cmp-buffer](https://github.com/hrsh7th/cmp-buffer) a source for buffer words
-    - [cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp) a source for builtin LSP client
-    - [cmp-vsnip](https://github.com/hrsh7th/cmp-vsnip) a source for vim-vsnip autocomplete
-    - [cmp-path](https://github.com/hrsh7th/cmp-path) a source for path autocomplete
-    - [cmp-treesitter](https://github.com/ray-x/cmp-treesitter) treesitter nodes autcomplete
-    - [crates.nvim](https://github.com/Saecki/crates.nvim) autocompletion of rust crate versions in `cargo.toml`
+- [cmp-buffer](https://github.com/hrsh7th/cmp-buffer) a source for buffer words
+- [cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp) a source for builtin LSP client
+- [cmp-vsnip](https://github.com/hrsh7th/cmp-vsnip) a source for vim-vsnip autocomplete
+- [cmp-path](https://github.com/hrsh7th/cmp-path) a source for path autocomplete
+- [cmp-treesitter](https://github.com/ray-x/cmp-treesitter) treesitter nodes autcomplete
+- [crates.nvim](https://github.com/Saecki/crates.nvim) autocompletion of rust crate versions in `cargo.toml`
 
 ### Snippets
 

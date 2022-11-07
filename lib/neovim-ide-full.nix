@@ -12,6 +12,7 @@ neovimBuilder {
         multiple-cursors
         vim-repeat
         vim-surround
+        copilot-vim
       ];
       lsp = {
         enable = true;
