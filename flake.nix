@@ -243,7 +243,7 @@
 
     # Scala 3 highlights (treesitter doesn't yet support it)
     vim-scala = {
-      url = github:gvolpse/vim-scala;
+      url = github:gvolpe/vim-scala;
       flake = false;
     };
 
@@ -307,7 +307,6 @@
         "promise-async"
         "mind-nvim"
         "github-copilot"
-        "wta"
       ];
 
       lib = import ./lib { inherit pkgs inputs plugins; };
