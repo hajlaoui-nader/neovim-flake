@@ -307,6 +307,7 @@
         "promise-async"
         "mind-nvim"
         "github-copilot"
+        "wta"
       ];
 
       lib = import ./lib { inherit pkgs inputs plugins; };
