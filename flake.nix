@@ -306,6 +306,7 @@
         "nvim-ufo"
         "promise-async"
         "mind-nvim"
+        "github-copilot"
       ];
 
       lib = import ./lib { inherit pkgs inputs plugins; };
