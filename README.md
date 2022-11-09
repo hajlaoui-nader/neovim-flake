@@ -10,11 +10,7 @@ Originally based on gvolpe's amazing [neovim-flake](https://github.com/gvolpe/ne
 $ nix run github:hajlaoui-nader/neovim-flake#
 ```
 
-By default, Scala, Dhall, Elm, Nix, Haskell, and SQL lsp servers are enabled.
-
-## Screenshot
-
-![screenshot](./screenshot.png)
+By default, Scala, Python, and SQL lsp servers are enabled.
 
 ## Home Manager 
 
