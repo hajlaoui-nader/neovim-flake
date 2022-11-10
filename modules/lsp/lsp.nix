@@ -63,6 +63,10 @@ in
         (withPlugins cfg.folds [ promise-async nvim-ufo ]) ++ 
         (withPlugins cfg.rust.enable [ crates-nvim rust-tools ]);
 
+      vim.nnoremap = {
+        "<leader>d" = "<cmd> lua require\"telescope\".extensions.metals.commands()<CR>";
+      };
+
       vim.configRC = ''
         ${writeIf cfg.rust.enable ''
             function! MapRustTools()
