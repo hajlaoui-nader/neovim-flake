@@ -97,6 +97,7 @@ in
             " Scala nvim-metals config
             nnoremap <silent> <leader>ws  <cmd>lua require'metals'.worksheet_hover()<CR>
             nnoremap <silent> <leader>a   <cmd>lua require'metals'.open_all_diagnostics()<CR>
+            nnoremap <silent> <leader>d   <cmd>lua require"telescope".extensions.metals.commands()<CR>
           ''
         }
       '';
